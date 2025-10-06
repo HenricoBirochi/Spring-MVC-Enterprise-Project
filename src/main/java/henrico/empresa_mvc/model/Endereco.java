@@ -1,4 +1,4 @@
-package henrico.empresa_mvc.domain;
+package henrico.empresa_mvc.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

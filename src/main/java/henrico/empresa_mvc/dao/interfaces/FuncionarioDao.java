@@ -2,7 +2,7 @@ package henrico.empresa_mvc.dao.interfaces;
 
 import java.util.List;
 
-import henrico.empresa_mvc.domain.Funcionario;
+import henrico.empresa_mvc.model.Funcionario;
 
 public interface FuncionarioDao {
 

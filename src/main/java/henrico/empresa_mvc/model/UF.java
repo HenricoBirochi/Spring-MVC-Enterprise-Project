@@ -1,4 +1,4 @@
-package henrico.empresa_mvc.domain;
+package henrico.empresa_mvc.model;
 
 public enum UF {
 

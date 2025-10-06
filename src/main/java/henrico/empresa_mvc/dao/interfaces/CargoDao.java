@@ -2,7 +2,7 @@ package henrico.empresa_mvc.dao.interfaces;
 
 import java.util.List;
 
-import henrico.empresa_mvc.domain.Cargo;
+import henrico.empresa_mvc.model.Cargo;
 
 public interface CargoDao {
 

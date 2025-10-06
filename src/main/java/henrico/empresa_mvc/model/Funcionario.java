@@ -1,4 +1,4 @@
-package henrico.empresa_mvc.domain;
+package henrico.empresa_mvc.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
