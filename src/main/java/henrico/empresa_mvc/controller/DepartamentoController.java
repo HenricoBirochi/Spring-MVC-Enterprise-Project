@@ -2,6 +2,7 @@ package henrico.empresa_mvc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import henrico.empresa_mvc.model.Departamento;
@@ -23,8 +24,9 @@ public class DepartamentoController {
         return "departamento/cadastro";
     }
 
-    @GetMapping("/listar")
-    public String listar() {
+    @GetMapping("/listar")// Nesse caso voce esta mandando um objeto do tipo 'ModelMap' o qual voce pode usar para armazenar varios objetos
+    public String listar(ModelMap model) { //e escolher um nome de acesso desses objetos para o template
+        model.addAttribute("departamentos", service.buscarTodos());
         return "departamento/lista";
     }
 
